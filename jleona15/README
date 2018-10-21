@@ -1,0 +1,17 @@
+Jared Leonard
+jleona15
+B00715863
+
+All trace outputs match the correct outputs given in the project description
+
+The Makefile has the command "run-all" set to execute predictors with all
+of the given traces.
+
+I attempted the extra credit, but none of the methods I employed worked. TAGE
+and local history didn't seem to work well at all, and although a perceptron
+worked very well for predictions, it only did so with more bits used than the
+tournament predictor. All methods technically work, but the accuracy of them
+ranges from close to the tournament predictor to no better than chance. All
+of them were designed to output to a separate output file, special_output.txt,
+with the same data found in the other output files but with stats only for 
+the extra credit algorithm(s).
